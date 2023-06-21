@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    -->
+<title>Optics</title>
+<link rel="icon" type="image/png" sizes="16x16" href="img/free-icon-eye-2766886.png">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-app>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <div class="wrap flex">
+        <div class="logo-wrap">
+      <a class="logo" href="index.html"><img src="img/free-icon-optical-8000607.png" alt=""></a>
+    </div>
+  </div>
+      <a class="navbar-brand" href="index.html">Main page</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!---->
+<div class="btn-group">
+<button type="button" class="btn"><a href="index6.html" class="main-buttons">Contact lenses</a></button>
+<button type="button" class="btn dropdown-toggle dropdown-toggle-split drop-down" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="visually-hidden">Contact lenses</span>
+</button>
+<ul class="dropdown-menu bg-dark">
+<li><a class="dropdown-item text-light" href="index3.html">Daily contacts</a></li>
+  <li><a class="dropdown-item text-light" href="index4.html">Weekly contacts</a></li>
+  <li><a class="dropdown-item text-light" href="index5.html">Monthly contacts</a></li>
+  <li><a class="dropdown-item text-light" href="index7.html">Colored contacts</a></li>
+</ul>
+</div>
+<!-- Example split danger button -->
+<div class="btn-group">
+<button type="button" class="btn"><a href="index2.html" class="main-buttons">Glasses</a></button>
+<button type="button" class="btn dropdown-toggle dropdown-toggle-split drop-down" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="visually-hidden">Glasses</span>
+</button>
+<ul class="dropdown-menu bg-dark">
+  <li><a class="dropdown-item text-light">Custon glasses(Coming soon)</a></li>
+  <li><a class="dropdown-item text-light" href="index2.html">Glasses in stock</a></li>
+</ul>
+</div>
+<div class="btn-group">
+<button type="button" class="btn"><a href="index9.html" class="main-buttons">Accessories</a></button>
+<button type="button" class="btn dropdown-toggle dropdown-toggle-split drop-down" data-bs-toggle="dropdown" aria-expanded="false">
+<span class="visually-hidden">Accessories</span>
+</button>
+<ul class="dropdown-menu bg-dark">
+<li><a class="dropdown-item text-light" href="#">Accessories for glasses</a></li>
+  <li><a class="dropdown-item text-light" href="index10.html">Accessories for lenses</a></li>
+</ul>
+</div>
+
+        </ul>
+        <a class="contact-1 navbar-b" href="index8.html">Contacts</a>
+      </div>
+    </div>
+  </nav>
+  
+  <!---->
+  
+      <section class="main-info sect">
+        <div class="container-xxl">
+        <div class="row align-items-center">
+            <div class="col-7">
+                <h1 class="main-text1">To find the perfect glasses for yourself you need to follow these simple tips:</h1>
+                <ul>
+                  <li>When choosing lenses, a person needs to know optical indicators. You can find them in the recipe: intercenter distance and diopters. This data should be given to you by an ophthalmologist — a specialist in the selection of glasses, only after a complete examination of your vision.</li>
+                  <li>Anti-reflective coatings can greatly improve the look and comfort of your glasses by limiting the amount of light that bounces off your lenses. These popular apps help reduce eye strain.</li>
+                  <li>When selecting reading glasses, doctors use a special table to check near vision acuity. Selection is carried out according to the same basic rules as for the following. First, the oculist examines each eye separately, and then both at the same time - binocularly. They focus on 4-6 texts of the table, depending on the wishes and needs of the patient. If bifocal or progressive glasses are selected, then vision is checked both at a distance and near.</li>
+                  <li>The refractive index of an eyeglass lens material is a number that is a relative measure of how effectively the material refracts light, which depends on how quickly light travels through the glass.</li>
+                </ul>
+                
+            </div>
+            <div class="col-5">
+              <img class="main-img w-100" src="https://images.pexels.com/photos/5996749/pexels-photo-5996749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+<!---->
+    
+<h2 class="title2 text-center">All glasses</h2>
+
+    
+<div id="blog" class="py-5">
+      
+
+  <div class="container" >
+    <div class="row">
+<!---->
+        <div class="col-md-3"> 
+          <div class="card" style="height: 462px">
+            <img src="https://kyivlinza.ua/storage/origin/gallery_images/10777/f6ec1e44ed9ed958372351b7ca587daf.jpg" style="height: 204px;" class="card-img-top img-fluid card-img-un" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Solente R2066 black</h5>
+              <p class="card-text">Price: {{420 | currency:'UAH'}}</p>
+              <p class="card-text">from +00.75 to +04.00</p>
+              <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               </div>
+               <p>(2 customer reviews)</p>
+              <a href="#" class="baby-button btn border border-dark">Go for it</a>
+            </div>
+          </div>
+        </div>
+<!---->
+<div class="col-md-3"> 
+<div class="card" style="height: 462px">
+<img src="https://kyivlinza.ua/storage/origin/gallery_images/15455/ccc079dc43801dc7e76fc24612e51ec8.jpg" class="card-img-top img-fluid card-img-un" style="height: 204px;" alt="">
+<div class="card-body">
+<h5 class="card-title">Solente R101 black</h5>
+<p class="card-text">Price: {{400 | currency:'UAH'}}</p>
+<p class="card-text">from +00.75 to +05.00</p>
+<div class="stars">
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+ </div>
+ <p>(4 customer reviews)</p>
+          <a href="#" class="baby-button btn border border-dark">Go for it</a>
+</div>
+</div>
+</div>
+<!---->
+<div class="col-md-3"> 
+<div class="card" style="height: 462px">
+<img src="https://kyivlinza.ua/storage/i/product/gallery_images/14059/c66b1ed3642302ddda1b87684a2ee569.jpg.webp" class="card-img-top img-fluid card-img-un" alt="">
+<div class="card-body">
+<h5 class="card-title">Solente TR2821</h5>
+<p class="card-text">Price: {{250 | currency:'UAH'}}</p>
+<p class="card-text">from 00.00 to -04.00</p>
+<div class="stars">
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+ <span class="fa fa-star checked"></span>
+ </div>
+ <p>(1 customer reviews)</p>
+<a href="#" class="baby-button btn border border-dark">Go for it</a>
+</div>
+</div>
+</div>    
+<!---->  
+<div class="col-md-3"> 
+<div class="card" style="height: 462px">
+<img src="https://kyivlinza.ua/storage/i/product/gallery_images/15440/6969c53471269daaf946c067ab1a66ae.jpg.webp" class="card-img-top img-fluid card-img-un" alt="">
+<div class="card-body">
+  <h5 class="card-title">Solente R2021</h5>
+  <p class="card-text">Price: {{190 | currency:'UAH'}}</p>
+  <p class="card-text">+01.00 to +04.00</p>
+  <div class="stars">
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+    <span class="fa fa-star"></span>
+   <span class="fa fa-star"></span>
+   </div>
+   <p>(0 customer reviews)</p>
+  <a href="#" class="baby-button btn border border-dark">Go for it</a>
+
+</div>
+</div>
+</div>
+</div>
+     <div class="container2">
+          <div class="row">
+      <!---->
+               <div class="col-md-3"> 
+          <div class="card" style="height: 462px">
+            <img src="https://kyivlinza.ua/storage/i/product/gallery_images/15449/19cb264591ef4df911b46c7afb6305fd.jpg.webp" class="card-img-top img-fluid card-img-un" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Acuvue Oasys(weekly)</h5>
+              <p class="card-text">Price: {{250 | currency:'UAH'}}</p>
+              <p class="card-text">+01.00 to +02.00</p>
+              <div class="stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+               <span class="fa fa-star"></span>
+               </div>
+               <p>(3 customer reviews)</p>
+              <a href="#" class="baby-button btn border border-dark">Go for it</a>
+            </div>
+          </div>
+        </div>
+      <!---->
+      <div class="col-md-3"> 
+      <div class="card" style="height: 462px">
+      <img src="https://kyivlinza.ua/storage/i/product/gallery_images/15449/0bf35d920cd5bbd0153f80f96225780b.jpg.webp" class="card-img-top img-fluid card-img-un" alt="">
+      <div class="card-body">
+      <h5 class="card-title">Solente R016</h5>
+      <p class="card-text">Price: {{120 | currency:'UAH'}}</p>
+      <p class="card-text">+01.00</p>
+      <div class="stars">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       </div>
+       <p>(1 customer reviews)</p>
+                <a href="#" class="baby-button btn border border-dark">Go for it</a>
+      </div>
+      </div>
+      </div>
+      <!---->
+      <div class="col-md-3"> 
+      <div class="card" style="height: 462px">
+      <img src="https://kyivlinza.ua/storage/i/product/gallery_images/15454/64e4009600986677a50d6831240f676f.jpg.webp" class="card-img-top img-fluid card-img-un" alt="">
+      <div class="card-body">
+      <h5 class="card-title">Solente R102</h5>
+      <p class="card-text">Price: {{300 | currency:'UAH'}}</p>
+      <p class="card-text">+01.00 to +04.00</p>
+      <div class="stars">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       </div>
+       <p>(2 customer reviews)</p>
+      <a href="#" class="baby-button btn border border-dark">Go for it</a>
+      </div>
+      </div>
+      </div>    
+      <!---->  
+      <div class="col-md-3"> 
+      <div class="card" style="height: 462px">
+      <img src="https://kyivlinza.ua/storage/origin/gallery_images/13935/836c0f8a79425f8f38350ea22a741437.jpg" class="card-img-top img-fluid card-img-un" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Tactical glasses Solente 0089</h5>
+        <p class="card-text">Price: {{1400 | currency:'UAH'}}</p>
+        <p class="card-text">	&times;</p>
+        <div class="stars">
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+         <span class="fa fa-star"></span>
+         </div>
+         <p>(0 customer reviews)</p>
+        <a href="#" class="baby-button btn border border-dark">Go for it</a>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+    
+  </div> 
+  </div>
+
+<div calss="last">
+  <p style="color: rgba(0, 0, 0, 0.365);" class="text-center">More items in the future</p>
+</div>
+  <footer class="footer mt-auto bg-dark py-3">
+    <div class="container">
+      <span class="text-muted">Copyright</span>
+    </div>
+   </footer>
+    <!-- JavaScript Bundle with Popper -->
+ <script src="https://kit.fontawesome.com/81d4cfa052.js" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</body>
+</html>
